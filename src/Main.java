@@ -14,6 +14,6 @@ public class Main {
         Produto camiseta = new Produto("Algodao",50.6);
         Produto calça = new Produto("jeans",50.0);
 
-        
+
     }
 }
