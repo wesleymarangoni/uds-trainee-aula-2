@@ -2,7 +2,8 @@ import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
-        Pessoa pessoa = new Pessoa();
-        System.out.println(pessoa.obterInformacao());
+        Animal macaco = new Macaco("Jr", 10);
+        System.out.println(macaco.andar());
+        ((Macaco) macaco).comerBanana();
     }
 }
