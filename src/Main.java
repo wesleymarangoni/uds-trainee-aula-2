@@ -8,12 +8,20 @@ public class Main {
         System.out.println(macaco.andar());
         ((Macaco) macaco).comerBanana();
         */
-        Produto bola = new Produto("jabulani",85.6);
-        Produto carro = new Produto("kadet",150.0);
-        Produto faca = new Produto("tramontina",8.54);
-        Produto camiseta = new Produto("Algodao",50.6);
-        Produto calça = new Produto("jeans",50.0);
 
+       //PROGDUTO E PEDIDO EXEC
+//        Produto bola = new Produto("jabulani",85.6);
+//        Produto carro = new Produto("kadet",150.0);
+//        Produto faca = new Produto("tramontina",8.54);
+//        Produto camiseta = new Produto("Algodao",50.6);
+//        Produto calça = new Produto("jeans",50.0);
+
+        // pato exec 7
+
+        Pato patoCabeçaVermelha = new PatoDeCabeçaVermelha();
+        Pato patoCibernetico = new PatoCibernetico();
+        patoCabeçaVermelha.voar();
+        patoCibernetico.voar();
 
     }
 }
